@@ -1,0 +1,1 @@
+../../../SCPStoreKitManager/Classes/SCPStoreKitManager.h

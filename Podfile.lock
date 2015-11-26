@@ -1,0 +1,12 @@
+PODS:
+  - SCPStoreKitManager (1.1.2):
+    - SCPStoreKitManager/Core
+  - SCPStoreKitManager/Core (1.1.2)
+
+DEPENDENCIES:
+  - SCPStoreKitManager (~> 1.1)
+
+SPEC CHECKSUMS:
+  SCPStoreKitManager: fcffd666f04a7fd6f8fe31b9b83e4da74144b675
+
+COCOAPODS: 0.34.4

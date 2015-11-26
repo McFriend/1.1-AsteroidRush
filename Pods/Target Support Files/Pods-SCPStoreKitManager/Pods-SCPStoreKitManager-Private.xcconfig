@@ -1,0 +1,5 @@
+#include "Pods-SCPStoreKitManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/SCPStoreKitManager" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SCPStoreKitManager"
+OTHER_LDFLAGS = ${PODS_SCPSTOREKITMANAGER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

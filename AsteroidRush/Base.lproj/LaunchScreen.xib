@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="szR-ME-Gfr">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2014 Sabanov George. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vdf-nZ-9h1">
+                    <rect key="frame" x="20" y="699" width="375" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Md4-mj-shF"/>
+                        <constraint firstAttribute="width" constant="375" id="Scg-Ud-tLE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="vdf-nZ-9h1" secondAttribute="centerX" id="4RI-NZ-hOE"/>
+                <constraint firstItem="vdf-nZ-9h1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ESI-FI-nJk"/>
+                <constraint firstAttribute="trailing" secondItem="szR-ME-Gfr" secondAttribute="trailing" id="HWZ-5v-9C2"/>
+                <constraint firstItem="szR-ME-Gfr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="I59-wn-MZt"/>
+                <constraint firstAttribute="bottom" secondItem="vdf-nZ-9h1" secondAttribute="bottom" constant="16" id="Mdh-W3-Rg4"/>
+                <constraint firstItem="szR-ME-Gfr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QPd-l0-SRX"/>
+                <constraint firstAttribute="trailing" secondItem="vdf-nZ-9h1" secondAttribute="trailing" constant="19" id="UXX-Ac-3C7"/>
+                <constraint firstAttribute="bottom" secondItem="szR-ME-Gfr" secondAttribute="bottom" id="sqb-iR-ZV7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchImage.png" width="1242" height="2208"/>
+    </resources>
+</document>

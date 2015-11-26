@@ -1,0 +1,1 @@
+../../../SCPStoreKitManager/Classes/Categories/NSError+SCPStoreKitManager.h
